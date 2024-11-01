@@ -1,3 +1,27 @@
 .headerheight{
     height: 75px;
 }
+.education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: RGBA(var(--bs-dark-rgb),var(--bs-bg-opacity,1))!important;
+    color: white !important;
+    margin-left: -500px;
+    margin-right: -500px;
+}
+img{
+    border-radius: 50%;
+}
+.educationcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img .education{
+    border-radius: 50%;
+}
+
